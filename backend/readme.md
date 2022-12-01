@@ -1,5 +1,6 @@
-// This application covers following topics
+// Commands to run backend
 
--> Custom User Model
--> Building APIs with Django Rest Framework
--> JWT Authentication
+-> python -m venv myenv
+-> myenv\scripts\activate
+-> pip install -r requirements.txt
+-> python manage.py runserver
