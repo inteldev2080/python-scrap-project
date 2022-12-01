@@ -1,4 +1,5 @@
-// Commands to run frontend
+### Commands to run frontend
 
--> npm i
--> npm start
+* Install dependencies `npm i`
+
+* Run the server `npm start`
