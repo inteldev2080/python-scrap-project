@@ -1,22 +1,14 @@
-// Commands to run backend
+### Commands to run backend
 
-* create virtualenv
+* create virtualenv `python -m venv myenv`
 
-`python -m venv myenv`
+* activate virtualenv `myenv\scripts\activate`
 
-* activate virtualenv 
+* install the dependencies `pip install -r requirements.txt`
 
-`myenv\scripts\activate`
+* run the server `python manage.py runserver`
 
-* install the dependencies
-
-`pip install -r requirements.txt`
-
-* run the server
-
-`python manage.py runserver`
-
-* API endpoints used in the project
+### API endpoints used in the project
 
 To fetch Records (GET)
 `http://127.0.0.1:8000/api/v1/`
