@@ -12,7 +12,7 @@
 
 * please refer to this <a href="https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/">guide</a> to setup selenium, once done you need to place the driver in the same place where i have put mine (replace with mine msedgedriver.exe, in backend directory).
 
-* to edit the selenium path in the try_final.py script to avoid errors
+* make sure to edit the selenium path in the try_final.py script to avoid errors
 
 ### API endpoints used in the project
 
