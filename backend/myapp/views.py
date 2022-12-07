@@ -1,9 +1,9 @@
 from rest_framework.views import APIView
-from requests_html import HTML
 from rest_framework.response import Response
-from newScript import scrapWebsite
+from try_final import scrapWebsite
 from .serializers import CryptoSerializer
 from .models import CryptoModel
+import time
 
 
 class CryptoAPIView(APIView):
@@ -25,7 +25,8 @@ class CryptoAPIView(APIView):
 
             # Scrap and save data in db
             required_obj = scrapWebsite('https://coinmarketcap.com/')
-            print("total objects", len(required_obj))
+            
+            # print("total objects", len(required_obj))
 
             for each_obj in required_obj:
                 serializer = CryptoSerializer(data=each_obj)

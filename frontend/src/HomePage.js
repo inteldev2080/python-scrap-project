@@ -6,7 +6,7 @@ import axios from 'axios';
 const HomePage = () => {
 
     const [tableData, setTableData] = useState([])
-    const [counter, setCounter] = useState(5)
+    const [counter, setCounter] = useState(3)
     const [counterStatus, setCounterStatus] = useState(true)
 
     // useState(() => {
@@ -38,7 +38,7 @@ const HomePage = () => {
         if (counterStatus) {
             setTimeout(() => {
                 if (counter === 0) {
-                    setCounter(5)
+                    setCounter(3)
                     getNewRecords()
                 } else {
                     setCounter(counter - 1)
